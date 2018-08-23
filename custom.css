@@ -1,0 +1,89 @@
+body{
+     font-family: 'Jua', sans-serif;
+    }
+
+ /*utility classes*/
+.img-responsive
+   {
+	max-width: 100%;
+   }
+
+.food
+{
+	background:url(codee.jpg);
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.template{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.template h1
+  {
+	font-size: 2.4rem;
+	text-align: center;
+  }
+.template span
+  {
+      text-align: inline-block;
+      margin-left: 4rem;
+      margin-bottom: 3rem;
+  }
+.food_code .post_code
+  {
+      display:block;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 2rem;
+      padding: .6rem;
+      outline: none;
+      border:none;
+  }
+.food_code button{
+	width: 40%;
+	text-align: center;
+	background-color: red;
+	color: white;
+	padding: .6rem;
+	margin: 1rem 12rem 1rem;
+	border:none;
+	border-radius: .4rem;
+}
+
+
+/*product styling*/
+.product{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3rem;
+}
+
+.product_list_items
+{
+	float: left;
+	width: 32%;
+	
+}
+
+
+.product_list_items:first-of-type
+{
+   margin-left: 0;
+}
+
+
+@media screen and(max-width:700px)
+{
+   .product_list_items
+     {
+          width:100%;
+          float:none;
+     }
+}
